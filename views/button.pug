@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  h1= title   
+  p This is a test page with a button. (I've written the word 'button' so many times it no longer looks right)
+
+  p
+  button(type='button', onClick='function(\'' + someValue + '\')') A button that does nothing
+  p
+  button(onclick='clickme()')  Do not click!
+  script.
+    function clickme() {
+      alert('Warning - a button was clicked!')
+    }
+  

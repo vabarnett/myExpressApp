@@ -1,0 +1,20 @@
+body {
+  padding: 50px;
+  font: 28px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: lightblue;
+}
+
+a {
+  color: #ff5e00;
+  font: 20px;
+}
+p{
+  font-size: 16px;
+  font-family: monospace;
+}
+
+.border {
+    border-color: blue;
+    border-width: 10px;
+    border-style: solid;
+}
